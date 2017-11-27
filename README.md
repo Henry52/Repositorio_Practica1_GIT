@@ -1,4 +1,4 @@
-Práctica del curso de git, gitHub y Sourcetree
+# Práctica del curso de git, gitHub y Sourcetree
 
 
 Preguntas:
@@ -91,16 +91,19 @@ git branch -D title
 ***Rpta:***
 
 $ git reflog
-Luego vi el SHA donde hizimos el commit, en mi caso 6b3c2d3
-$ git reset --hard 6b3c2d3
 
+Luego vi el SHA donde hizimos el commit, en mi caso 6b3c2d3
+
+$ git reset --hard 6b3c2d3
 
 >-¿Qué comando o comandos usaste en el paso 32?
 
 ***Rpta:***
 
 $ git reflog
+
 Luego vi el SHA donde se creo el poema, en mi caso 039d9ff
+
 $ git reset --hard 039d9ff
 
 >-¿Qué comando o comandos usaste en el punto 33?
@@ -108,8 +111,13 @@ $ git reset --hard 039d9ff
 ***Rpta:***
 
 $ git reflog
+
 Luego vi el SHA donde pusimos el titulo, en mi caso d0a1d16
+
 $ git reset --hard d0a1d16
 
+-
 
+## Mi PR del Ejercicio 2:
 
+[https://github.com/kasappeal/nerdquotes/pull/277](https://github.com/kasappeal/nerdquotes/pull/277)
